@@ -1,8 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/4042124ab3b3022e43b9f91d92f2efd7?family=Geomanist+Light);
-body {
-    font-family: "Geomanist Light"; 
-}
+ @font-face {
+    font-family: 'Geomanist Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geomanist Regular'), url('Geomanist-Regular.woff') format('woff');
+    }
 
-.navabar {
-    background-color: RED;
+body {
+    letter-spacing: 2px;
 }
