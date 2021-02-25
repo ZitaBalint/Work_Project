@@ -8,3 +8,10 @@
 body {
     letter-spacing: 2px;
 }
+
+.col-6 {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin: 10px
+}
