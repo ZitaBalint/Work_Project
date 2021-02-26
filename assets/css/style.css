@@ -17,7 +17,32 @@ body {
   position: relative;
   min-height: 100%;
   letter-spacing: 2px;
-   
+   color: #282828;
+}
+
+.navbar {
+    background-color: white!;
+}
+
+.dropdown-menu .show {
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  z-index: 2000;
+  background-color: rgba(237, 235, 235, 0.7);
+  width: auto;
+  border: none;
+  text-align: left;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(97, 94, 84, 0.7);
+}
+
+.signin-btn {
+    background-color: #edebeb;
 }
 
 .container-fluid {
@@ -50,13 +75,24 @@ body {
     padding-top: 200px;
 }
 
+
+
 .home-button {
     border: none;
     width: 150px;
     height: 55px;
     cursor: pointer;
+    background-color: has #edebeb;
 }
 
 .home-button:hover {
     background-color: cadetblue;
+}
+
+.product-img {
+    background-image: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614357779/Device_uoalcj.jpg);
+    background-size: cover;
+    display: block;
+    width: auto;
+    height: 400px;
 }
