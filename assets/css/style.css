@@ -54,5 +54,9 @@ body {
     border: none;
     width: 150px;
     height: 55px;
-    
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: cadetblue;
 }
