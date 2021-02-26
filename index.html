@@ -1,169 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Head -->
+<!-- Head -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moment</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Moment</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
-
-
 <!-- Body -->
-<body>
-    <!-- Header  -->
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Moment</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<body>
+	<!-- Header  -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Moment</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Product and Info
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Moment Camera</a>
-          <a class="dropdown-item" href="#">Subscription</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Moment Camera</a>
+							<a class="dropdown-item" href="#">Subscription</a>
+						</div>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="#">Safety<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="#">About Us</a>
+					</li>
+				</ul>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signInModalCenter">Sign In</button>
+				<!-- Modal -->
+				<div class="modal fade" id="signInModalCenter" tabindex="-1" role="dialog" aria-labelledby="signInModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Sign In</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form class="signin-form">
+									<div class="form-group">
+										<label for="exampleDropdownFormEmail2">Email address</label>
+										<input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+									</div>
+									<div class="form-group">
+										<label for="exampleDropdownFormPassword2">Password</label>
+										<input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+									</div>
+									<div class="form-check">
+										<input type="checkbox" class="form-check-input" id="dropdownCheck2">
+										<label class="form-check-label" for="dropdownCheck2">Remember me</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Sign in</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+        <div class="home-page">
+            <div class="container-fluid intro-container">
+						<div class="row home-row no-gutter">
+			    <div class="col-6">
+								<div class="intro-home col-12-copy-container">
+                                    <p>Master your cooking from the comfrot of your home</p>
+                                    <button type="button" class="home-button">Find out more</button>
+								</div>
+							</div>
+	
+						</div>
+			</div>
+				</div>
         
+
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6 product">
+                    <div class="product-intro col-12-copy-containe">
+
+                    </div>
+                </div>
+				<div class="col-6 ">
+                    <div class="product-picture col-12-copy-containe">
+
+                    </div>
+                </div>
+			</div>
+		</div>subsription
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6">intro</div>
+				<div class="col-6">pictures</div>
+			</div>
+		</div>Safety
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6">intro</div>
+				<div class="col-6">pictures</div>
+			</div>
+		</div>About us
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6">intro</div>
+				<div class="col-6">pictures</div>
+			</div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Safety<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-     
-      
-    </ul>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signInModalCenter">
-  Sign In
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="signInModalCenter" tabindex="-1" role="dialog" aria-labelledby="signInModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Sign In</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="signin-form">
-  <div class="form-group">
-    <label for="exampleDropdownFormEmail2">Email address</label>
-    <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleDropdownFormPassword2">Password</label>
-    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-    <label class="form-check-label" for="dropdownCheck2">
-      Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-  </div>
-</nav>
-    </header>
-
-
-    <main>
-        home
-
-        <div class="container-fluid">
-  <div class="row col-12">
-    <div class="col-6">
-      <div class="intro-home">
-          <p>
-              Master your cooking from the comfrot of your home 
-          </p>
-      </div>
-    </div>
-    <div class="col-6">
-      pictures
-    </div>
-    
-  </div>
-</div>
-
-
-
-        product 
-         <div class="container-fluid">
-  <div class="row col-12">
-    <div class="col-6">
-      intro
-    </div>
-    <div class="col-6">
-      pictures
-    </div>
-    
-  </div>
-</div>
-        subsription 
-         <div class="container-fluid">
-  <div class="row col-12">
-    <div class="col-6">
-      intro
-    </div>
-    <div class="col-6">
-      pictures
-    </div>
-    
-  </div>
-</div>
-        Safety
-         <div class="container-fluid">
-  <div class="row col-12">
-    <div class="col-6">
-      intro
-    </div>
-    <div class="col-6">
-      pictures
-    </div>
-    
-  </div>
-</div>
-
-        About us 
-         <div class="container-fluid">
-  <div class="row col-12">
-    <div class="col-6">
-      intro
-    </div>
-    <div class="col-6">
-      pictures
-    </div>
-    
-  </div>
-</div>
-
-    </main>
-
-
-    <footer></footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <div class="container-fluis service-container">
+                <div class="row col-12" id="our-service">
+                    <div class="our-service-content col-12-copy-container">
+                        <h1>Info</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container card-container col-12">
+                <div class="row card-row ourservice-row col-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614271447/Screenshot_2021-02-25_at_16.37.59_ga0quf.png" alt="Special size products" />
+                            <div class="card-body">
+                                <h5 class="card-title">Meet the chef</h5>
+                                <p class="card-text">Ross Gibbens</p>
+                                <p>Executive Chef at Severnshed Restaurant in Bristol</p>
+                                <div class="card-footer">
+                                    <a href="info.html" class="btn btn-primary">Message us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272367/My_Post_2_1_mi7sbk.jpg" alt="Gift wrap" />
+                            <div class="card-body">
+                                <h5 class="card-title">About us</h5>
+                                <p class="card-text">Sendig your order as a little present? Let us kniow and we will incloude you personal message on a beautiful postcard in a giftwrapped package x</p>
+                                <div class="card-footer">  
+                                    <a href="info.html" class="btn btn-primary">Message us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272818/image_1_jxmybp.png" alt="Gift card" />
+                            <div class="card-body">
+                                <h5 class="card-title">Reviews</h5>
+                                <p class="card-text">Can't decide of the print or size? Why not to send a giftcard with a personalised message, and let them pick?! x</p>
+                                <div class="card-footer">
+                                    <a href="info.html" class="btn btn-primary">Message us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	</main>
+	<footer></footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
