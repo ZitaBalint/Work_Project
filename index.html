@@ -5,7 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Moment</title>
+    <title>Moment</title>
+    <link rel="icon" type="image" href="https://res.cloudinary.com/dbwtdwgnt/image/upload/c_thumb,w_200,g_face/v1614355964/Screenshot_2021-02-26_at_16.10.10_otjfos.png" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -15,7 +16,9 @@
 <body>
 	<!-- Header  -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Moment</a>
+		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="#">
+            <img class="moment-image" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/c_thumb,w_200,g_face/v1614354641/Logo_Moment_jojg9v.jpg">
+        </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -33,7 +36,7 @@
 					</li>
 				</ul>
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signInModalCenter">Sign In</button>
+				<button type="button" class="btn signin-btn" data-toggle="modal" data-target="#signInModalCenter">Sign In</button>
 				<!-- Modal -->
 				<div class="modal fade" id="signInModalCenter" tabindex="-1" role="dialog" aria-labelledby="signInModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
@@ -57,7 +60,7 @@
 										<input type="checkbox" class="form-check-input" id="dropdownCheck2">
 										<label class="form-check-label" for="dropdownCheck2">Remember me</label>
 									</div>
-									<button type="submit" class="btn btn-primary">Sign in</button>
+									<button type="submit" class="btn signin-btn">Sign in</button>
 								</form>
 							</div>
 						</div>
@@ -67,97 +70,143 @@
 		</nav>
 	</header>
 	<main>
-        <div class="home-page">
-            <div class="container-fluid intro-container">
-						<div class="row home-row no-gutter">
-			    <div class="col-6">
-								<div class="intro-home col-12-copy-container">
-                                    <p>Master your cooking from the comfort of your home</p>
-                                    <button type="button" class="home-button">Find out more</button>
-								</div>
-							</div>
-	
+		<div class="home-page">
+			<div class="container-fluid intro-container">
+				<div class="row home-row no-gutter">
+					<div class="col-6">
+						<div class="intro-home col-12-copy-container">
+							<p>Master your cooking from the comfort of your home</p>
+							<button type="button" class="home-button">Find out more</button>
 						</div>
-			</div>
+					</div>
 				</div>
+			</div>
+		</div>
+		
+		Product
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6">intro</div>
+				<div class="col-6 product-img">
         
-
-		<div class="container-fluid">
-			<div class="row col-12">
-				<div class="col-6 product">
-                    <div class="product-intro col-12-copy-containe">
-
-                    </div>
-                </div>
-				<div class="col-6 ">
-                    <div class="product-picture col-12-copy-containe">
-
-                    </div>
                 </div>
 			</div>
-		</div>subsription
-		<div class="container-fluid">
-			<div class="row col-12">
-				<div class="col-6">intro</div>
-				<div class="col-6">pictures</div>
-			</div>
-		</div>Safety
-		<div class="container-fluid">
-			<div class="row col-12">
-				<div class="col-6">intro</div>
-				<div class="col-6">pictures</div>
-			</div>
-		</div>About us
+		</div>Subsription
 		<div class="container-fluid">
 			<div class="row col-12">
 				<div class="col-6">intro</div>
 				<div class="col-6">pictures</div>
 			</div>
         </div>
-         <div class="container-fluis service-container">
-                <div class="row col-12" id="our-service">
-                    <div class="our-service-content col-12-copy-container">
-                        <h1>Info</h1>
-                    </div>
+        Safety
+		<div class="container-fluid">
+			<div class="row col-12">
+				<div class="col-6">intro</div>
+				<div class="col-6">
+                    <img src="assets/images/TimelapsExample2.gif">
                 </div>
-            </div>
-            <div class="container card-container col-12">
-                <div class="row card-row ourservice-row col-12">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614271447/Screenshot_2021-02-25_at_16.37.59_ga0quf.png" alt="Special size products" />
-                            <div class="card-body">
-                                <h5 class="card-title">Meet the chef</h5>
-                                <p class="card-text">Ross Gibbens</p>
-                                <p>Executive Chef at Severnshed Restaurant in Bristol</p>
-                                <div class="card-footer">
-                                    <a href="info.html" class="btn btn-primary">Message us</a>
+			</div>
+		</div>
+		<div class="container-fluis service-container">
+			<div class="row col-12" id="our-service">
+				<div class="our-service-content col-12-copy-container">
+					<h1>Info</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container card-container col-12">
+			<div class="row card-row ourservice-row col-12">
+				<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614271447/Screenshot_2021-02-25_at_16.37.59_ga0quf.png" alt="Special size products" />
+						<div class="card-body">
+							<h5 class="card-title">Meet the chef</h5>
+							<p class="card-text">Ross Gibbens</p>
+							<p>Executive Chef at Severnshed Restaurant in Bristol</p>
+							<div class="card-footer">
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meetTheChef">Launch demo modal</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="meetTheChef" tabindex="-1" role="dialog" aria-labelledby="meetTheChefTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered " role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="meetTheChefTitle">Meet the Chef</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+                                    <p>
+                                        Talented Chef Ross Gibbens graduated from Westminster Kingsway College as a Professinoal Chef and worked in some of the UK’s leading kitchen’s before became the Director of Food and Beverage of Harbour House Bristol and Sunshine Hospitality Group. 
+                                        He has more than 20 years of experience working in the Hospitality Industry.
+                                    </p>
+                                    <p>
+                                        Now he would like to give his knowledge and passion to others, educate and teache people how to master their skills in the comfort of their home.
+                                    </p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272367/My_Post_2_1_mi7sbk.jpg" alt="Gift wrap" />
-                            <div class="card-body">
-                                <h5 class="card-title">About us</h5>
-                                <p class="card-text">Sendig your order as a little present? Let us kniow and we will incloude you personal message on a beautiful postcard in a giftwrapped package x</p>
-                                <div class="card-footer">  
-                                    <a href="info.html" class="btn btn-primary">Message us</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272818/image_1_jxmybp.png" alt="Gift card" />
-                            <div class="card-body">
-                                <h5 class="card-title">Reviews</h5>
-                                <p class="card-text">Can't decide of the print or size? Why not to send a giftcard with a personalised message, and let them pick?! x</p>
-                                <div class="card-footer">
-                                    <a href="info.html" class="btn btn-primary">Message us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272367/My_Post_2_1_mi7sbk.jpg" alt="Gift wrap" />
+						<div class="card-body">
+							<h5 class="card-title">About us</h5>
+							<p class="card-text">Sendig your order as a little present? Let us kniow and we will incloude you personal message on a beautiful postcard in a giftwrapped package x</p>
+							<div class="card-footer">
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aboutUs">Launch demo modal</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="aboutUs" tabindex="-1" role="dialog" aria-labelledby="aboutUsTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="aboutUsTitle">About Us</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">...</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614272818/image_1_jxmybp.png" alt="Gift card" />
+						<div class="card-body">
+							<h5 class="card-title">Reviews</h5>
+							<p class="card-text">Can't decide of the print or size? Why not to send a giftcard with a personalised message, and let them pick?! x</p>
+							<div class="card-footer">
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#customerReview">Launch demo modal</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="customerReview" tabindex="-1" role="dialog" aria-labelledby="customerReviewTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered " role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="customerReviewTitle">Customer Reviews</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">...</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer></footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
