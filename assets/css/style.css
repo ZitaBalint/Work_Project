@@ -127,8 +127,9 @@ body {
 .card-container .card {
   max-width: 400px;
   border-radius: 0;
-  border: 1px solid #8a9a5b;
   text-align: center;
+  border: none;
+  
 }
 
 .card-row {
@@ -148,16 +149,25 @@ body {
 
 .btn-primary {
   width: 100%;
-  background-color: #8a9a5b;
+  background-color: #282828;
+  color: #edebeb;
   border: none;
   border-radius: 0;
 }
 
 .btn-primary:hover {
-  background-color: #f4db4d;
-  color: #8a9a5b;
+  background-color: #edebeb;
+  color: #282828;
 }
 
 .ourservice-row .card-footer {
   padding: 0;
+}
+
+div .card-text {
+    margin-bottom: 1rem;
+}
+
+ul {
+   list-style-type: none; 
 }
