@@ -90,9 +90,35 @@ body {
 }
 
 .product-img {
-    background-image: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614357779/Device_uoalcj.jpg);
-    background-size: cover;
     display: block;
     width: auto;
     height: 400px;
 }
+
+.camera-img {
+    background-size: cover;
+    height: 400px;
+}
+
+.subscription-img {
+    display: block;
+    width: auto;
+    height: 400px;
+}
+
+.pasta-img {
+    background-size: cover;
+    height: 400px;
+}
+
+.safety-img {
+    display: block;
+    width: auto;
+    height: 400px;
+}
+
+.camera-gif {
+    background-size: cover;
+    height: 400px;
+}
+
