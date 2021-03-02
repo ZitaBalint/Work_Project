@@ -122,3 +122,42 @@ body {
     height: 400px;
 }
 
+
+
+.card-container .card {
+  max-width: 400px;
+  border-radius: 0;
+  border: 1px solid #8a9a5b;
+  text-align: center;
+}
+
+.card-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ourservice-row .card-text {
+  height: 60%;
+  padding: 5% 10%;
+  font-size: clamp(13px, 1.5vw, 18px);
+  letter-spacing: 2px;
+  line-height: 1.7;
+  word-spacing: 2px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #8a9a5b;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #f4db4d;
+  color: #8a9a5b;
+}
+
+.ourservice-row .card-footer {
+  padding: 0;
+}
