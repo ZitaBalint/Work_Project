@@ -89,6 +89,19 @@ body {
     background-color: cadetblue;
 }
 
+.section-header{
+    letter-spacing: 4px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-row{
+    justify-content: center;
+    text-align: center;
+}
+
 .product-img {
     display: block;
     width: auto;
@@ -171,3 +184,4 @@ div .card-text {
 ul {
    list-style-type: none; 
 }
+
