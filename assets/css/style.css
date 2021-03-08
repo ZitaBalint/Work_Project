@@ -244,19 +244,60 @@ h3 {
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     
-  
+  li {
+      padding: 10px;
+  }
+  .card-text {
+      height: 65%;
+  }
 }
 
 @media all and (max-width: 990px) {
     
   }
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 767px) {
   
+.product-img,
+ .subscription-img,
+ .safety-img
+  {
+    height: 250px;
+     margin-bottom: 20px;
+}
+
+.pasta-img,
+.camera-img,
+.camera-gif {
+    height: 50vw;
+    max-height: 250px;
+}
+  
+
+.find-out-more {
+  width: 60%;
+}
+
+li {
+    padding: 10px;
+}
 }
 
 @media (max-width: 480px) {
-  
+  .product-img,
+ .subscription-img,
+ .safety-img
+  {
+    height: 150px;
+    
+}
+
+.pasta-img,
+.camera-img,
+.camera-gif {
+    height: 50vw;
+    max-height: 150px;
+}
   }
 
 @media (max-width: 350px) {
