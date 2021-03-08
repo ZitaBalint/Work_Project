@@ -235,6 +235,16 @@ h3 {
     background-color: #282828;
 }
 
+footer{
+    position: flex;
+    bottom: 0;
+    text-align: center;
+    background-color: #edebeb;
+    width: 100%;
+    height: 50px;
+    color: #282828;
+}
+
 @media all and (max-width: 1280px) {
   li {
       font-size: clamp(13px, 1.5vw, 18px)
@@ -243,20 +253,32 @@ h3 {
 
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    
+    .intro-container{
+    height:600px;
+}
   li {
       padding: 10px;
   }
-  .card-text {
+   .ourservice-row  .card-text {
       height: 65%;
   }
 }
 
 @media all and (max-width: 990px) {
-    
+    .intro-home {
+        padding-top: 150px;
+    }
   }
 
   @media all and (max-width: 767px) {
+
+.intro-container{
+    height:500px;
+}
+
+.intro-home {
+    padding-top: 120px;
+}
   
 .product-img,
  .subscription-img,
@@ -284,6 +306,23 @@ li {
 }
 
 @media (max-width: 480px) {
+   .intro-home h1{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+   .intro-container{
+    height:300px;
+} 
+.intro-home {
+    padding-top: 50px;
+}
+
+.home-button{
+    width: 150px;
+    height: 35px;
+}
+
   .product-img,
  .subscription-img,
  .safety-img
@@ -291,6 +330,7 @@ li {
     height: 150px;
     
 }
+
 
 .pasta-img,
 .camera-img,
@@ -301,5 +341,7 @@ li {
   }
 
 @media (max-width: 350px) {
-   
+   .intro-home {
+    padding-top: 20px;
+}
 }
