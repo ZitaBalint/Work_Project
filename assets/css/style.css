@@ -68,16 +68,15 @@ main {
   left: 0;
   width: 100%;
   height: 700px;
-    background-image: linear-gradient(rgba(247, 243, 243, 0.4), rgba(247, 243, 243, 0.4)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614611213/rebeca-g-sendroiu-7rjcoFTbXJI-unsplash_ae6qlg.jpg);
+    background-image: linear-gradient(rgba(247, 243, 243, 0.5), rgba(247, 243, 243, 0.5)), url(https://res.cloudinary.com/dbwtdwgnt/image/upload/v1614611213/rebeca-g-sendroiu-7rjcoFTbXJI-unsplash_ae6qlg.jpg);
     background-size: cover;
     display: block;
     
 }
 
-.intro-home p {
-    font-size: 60px;
+.intro-home h1{
     
-    color: rgb(88, 84, 84);
+    color: #282828;
     padding: 30px;
 }
 .intro-home  {
@@ -97,7 +96,7 @@ main {
 }
 
 .home-button:hover {
-    background-color: cadetblue;
+    background-color: #00aeb6;
 }
 
 .section-header{
@@ -116,37 +115,38 @@ main {
 .product-img {
     display: block;
     width: auto;
-    height: 25vw;
-    max-height: 400px;
+    height: 400px;
+    
 }
 
 .camera-img {
     background-size: cover;
-    height: 400px;
+    height: 30vw;
+    max-height: 400px;
 }
 
 .subscription-img {
     display: block;
     width: auto;
-    height: 20vw;
-    max-height: 400px;
+    height: 400px;
+    
 }
 
 .pasta-img {
     background-size: cover;
-    height: 400px;
+    height: 30vw;
+    max-height: 400px;
 }
 
 .safety-img {
     display: block;
     width: auto;
-    height: 20vw;
-    max-height: 400px;
+    height: 400px;
 }
 
 .camera-gif {
     background-size: cover;
-    height: 20vw;
+    height: 30vw;
     max-height: 400px;
 }
 
@@ -159,7 +159,7 @@ main {
   border-radius: 0;
   text-align: center;
   border: none;
-  
+  background-color: #282828;
 }
 
 .card-row {
@@ -179,15 +179,14 @@ main {
 
 .btn-primary {
   width: 100%;
-  background-color: #282828;
-  color: #edebeb;
+  background-color: #edebeb;
+  color: #282828;
   border: none;
   border-radius: 0;
 }
 
 .btn-primary:hover {
-  background-color: #edebeb;
-  color: #282828;
+  background: #00aeb6;
 }
 
 .ourservice-row .card-footer {
@@ -213,15 +212,35 @@ ul {
      text-align: left;
      padding-top: 10px;
      padding-left: 30px;
+     
  }
 
 h3 {
     padding-bottom: 20px;
 } 
 
-@media all and (max-width: 1280px) {
-  
+.find-out-more {
+  width: 40%;
+  background-color: #edebeb;
+  color: #282828;
+  border: none;
+  border-radius: 0;
 }
+
+.find-out-more:hover {
+    background: #00aeb6;
+}
+
+.modal-content {
+    background-color: #282828;
+}
+
+@media all and (max-width: 1280px) {
+  li {
+      font-size: clamp(13px, 1.5vw, 18px)
+  }
+}
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     
@@ -229,7 +248,7 @@ h3 {
 }
 
 @media all and (max-width: 990px) {
-  
+    
   }
 
   @media all and (max-width: 768px) {
