@@ -17,10 +17,11 @@ body {
   position: relative;
   min-height: 100%;
   letter-spacing: 2px;
-   color: #282828;
+   color: #edebeb;
+   
 }
 
-.navbar {
+ header .navbar-light {
     background-color: white!;
 }
 
@@ -45,12 +46,21 @@ body {
     background-color: #edebeb;
 }
 
+main {
+    background-color: #282828;
+}
+
 .container-fluid {
     position: relative  ;
     margin: auto;
     padding: 10px;
     display: flex;
     justify-content: center;
+    max-width:  1600px;
+}
+
+.home-row {
+    margin: 0;
 }
 
 .intro-container{
@@ -106,7 +116,8 @@ body {
 .product-img {
     display: block;
     width: auto;
-    height: 400px;
+    height: 25vw;
+    max-height: 400px;
 }
 
 .camera-img {
@@ -117,7 +128,8 @@ body {
 .subscription-img {
     display: block;
     width: auto;
-    height: 400px;
+    height: 20vw;
+    max-height: 400px;
 }
 
 .pasta-img {
@@ -128,13 +140,17 @@ body {
 .safety-img {
     display: block;
     width: auto;
-    height: 400px;
+    height: 20vw;
+    max-height: 400px;
 }
 
 .camera-gif {
     background-size: cover;
-    height: 400px;
+    height: 20vw;
+    max-height: 400px;
 }
+
+
 
 
 
@@ -203,4 +219,27 @@ h3 {
     padding-bottom: 20px;
 } 
 
+@media all and (max-width: 1280px) {
+  
+}
 
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    
+  
+}
+
+@media all and (max-width: 990px) {
+  
+  }
+
+  @media all and (max-width: 768px) {
+  
+}
+
+@media (max-width: 480px) {
+  
+  }
+
+@media (max-width: 350px) {
+   
+}
